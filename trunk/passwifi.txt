@@ -1,0 +1,110 @@
+==================================================
+Network Name (SSID): Comtrend_KLF
+Key (Ascii)       : KLFDHSG10
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): Connectify-me
+Key (Ascii)       : 123456789
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): KhoaCNTT
+Key (Ascii)       : khoa_cntt
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): KHU VUC THAM KHAO KLF
+Key (Ascii)       : 29/10/1985
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPAPSK
+Encryption        : TKIP
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): KIMPHUONG
+Key (Ascii)       : kimphuong86
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): MaiLinh
+Key (Ascii)       : 14161970
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): nthanhs108
+Key (Ascii)       : 0908560287
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): PHUONG
+Key (Ascii)       : minhphuong
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): SEAS OFFICE 1
+Key (Ascii)       : seas-819nttstbt
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPA2PSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): SEAS-KHACHHANG
+Key (Ascii)       : seas819nttstbt
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPAPSK
+Encryption        : AES
+Connection Type   : ESS
+==================================================
+
+==================================================
+Network Name (SSID): SEAS-OFFICE
+Key (Ascii)       : seas819nttstbt
+Adapter Name      : Broadcom 802.11n Network Adapter
+Adapter Guid      : {CCFF395F-DD46-49A1-A85E-66DCD5547736}
+Authentication    : WPAPSK
+Encryption        : TKIP
+Connection Type   : ESS
+==================================================
+
