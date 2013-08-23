@@ -1,0 +1,599 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  DATE:07/27/2005 11:05 AM
+  ON:c15-ws-app3
+  BY:_jsp._WEB_22dINF._jsp._community._displayAlbum__jsp
+  KEYWORDS:webshots, screen saver, wallpaper, photos, webshots daily 
+  COUNT_TAG:/page/community/album/pets/dogs/
+  CAT_ID: 
+-->
+
+
+<html>
+<head>
+  
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="description" content="Get a free photo for your desktop each and every day with Webshots!">
+<meta name="keywords" content="webshots, screen saver, wallpaper, photos, webshots daily">
+
+<title>Webshots - Images of Blueboys More Puppies</title>
+
+
+
+</head>
+
+
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" rightmargin="0" marginwidth="0" marginheight="0"  >
+
+
+<!--$Revision: 1.64 $-->
+<center>
+<script language="JavaScript"> 
+<!-- 
+	function SetCookie(NameOfCookie, value, expirehours)
+	{ 
+		var ExpireDate = new Date (); 
+		ExpireDate.setTime(ExpireDate.getTime() + (expirehours * 3600 * 1000)); 
+		document.cookie = NameOfCookie + "=" + escape(value) + 
+			((expirehours == null) ? "" : "; expires=" + ExpireDate.toGMTString()) + 
+			"; domain=.webshots.com; path=/;" ; 
+	} 
+
+	var CookieTest = -1;
+	SetCookie('cookie-test',1,1);
+	if (document.cookie.indexOf('cookie-test')!=-1)
+		CookieTest = 1;
+
+//	if (Math.random && (Math.floor(150000*Math.random()) == 1) && (document.cookie.indexOf('satisfaction_survey')==-1))
+//		document.write("<script src='http://p.webshots.com/js/satisfaction-1.1.js'></script>");
+	
+	function openwin(name,w,h,scrollbars,resizable,url)
+	{
+		var left = (screen.width-w)/2;
+		var top  = (screen.height-h)/2;
+
+		var win = window.open("",name,"width=" + w + ",height=" + h +",scrollbars=" + scrollbars +",resizable=" + resizable +",screenx="+left+",screeny="+top+",left="+left+",top="+top);
+		if (url)
+			win.location.href=url;
+		win.focus();
+		return win;
+	}
+
+	var AllCookies = unescape(document.cookie);
+	function NumDaysToExpire(type)
+	{
+		var S;
+		if (type == 'auction')
+			S = AllCookies.indexOf("G_x23{:t}") + 9;
+		else
+			S = AllCookies.indexOf("G_x21{:t}") + 9;
+		if (S <= 9)
+			return 999;
+		var Y = AllCookies.substring(S, S+4);
+		var M = AllCookies.substring(S+5, S+7);
+		var D = AllCookies.substring(S+8, S+10);
+		var Exp = new Date(Y,M-1,D,23,59,59,0);
+		var Now = new Date();
+		var Days = Math.floor((Now.getTime() - Exp.getTime())/(1000*60*60*24));
+		return Days;
+	}
+
+	var Auctions = ((AllCookies.indexOf("G_x22{:t}5") >= 0) && (NumDaysToExpire('auction') <= 0));
+	var SignedUp = (AllCookies.indexOf("daily=") >= 0);
+	var Premium = ((AllCookies.indexOf("G_x20{:t}*pre") >= 0) && (NumDaysToExpire() <= 0));
+	var Expired = ((AllCookies.indexOf("G_x20{:t}*exp") >= 0) || (NumDaysToExpire() > 0));
+
+	function GetFirstName()
+	{
+		var Name = "";
+		if (SignedUp)
+		{
+			var start = AllCookies.indexOf("G_x2{:t}") + 8;
+			var end = AllCookies.indexOf("{:n}", start);
+			if (start >= 0)
+				Name = AllCookies.substring(start, end);
+		}
+		return Name;
+	}
+// --> 
+</script>
+
+<!--$Revision: 1.8 $-->
+<script language="JavaScript1.1"> 
+<!-- 
+function wsCount(tag)
+{
+	if (!Math.random || !tag)
+		return;
+	
+	if (Math.floor(50*Math.random()) != 6) // only count sometimes; 6 could be any old number
+		return;
+	var url = 'http://www.webshots.com/counter.gif?tag='+tag+'&'+Math.floor(10000000*Math.random());
+	document.write('<img border=0 src="'+url+'" height="1" width="1">');
+}
+wsCount("/page/community/album/pets/dogs/");
+
+var unescaped_referrer = unescape(document.referrer);
+var to = unescaped_referrer.indexOf("?") > 0 ? unescaped_referrer.indexOf("?") : unescaped_referrer.length;
+var urldotcom = 'http://dw.com.com/clear/eval/c.gif?edId=3&oid=0-10406_41-0&sId=41&onId=10406&tag=/page/community/album/pets/dogs/&ts=' + new Date().getTime() + ''+"&xref=" + escape(unescaped_referrer.substring(0,to)) + "&xrq=" + escape(unescaped_referrer.substring(to+1,unescaped_referrer.length));
+document.write('<img border=0 src="'+urldotcom+'" height="1" width="1"><br>');
+
+//-->
+</script>
+<noscript><img src="http://dw.com.com/clear/eval/c.gif?edId=3&oid=0-10406_41-0&sId=41&onId=10406&tag=/page/community/album/pets/dogs/" height=1 width=1><br></noscript>
+
+
+<script> 
+<!-- 
+var user='/user/pages/';
+if (Premium) {user += 'premium/';}
+else if (SignedUp) {user += 'signedup/';}
+else {user += 'anon/';}
+wsCount(user);
+// --> 
+</script>
+
+<style type="text/css">
+a:link{color:#003399;}
+a:visited{color:#003399;}
+a:hover{color:red;}
+a.wl:link{color:#fff;}
+a.wl:visited{color:#fff;}
+a.wl:hover{color:#bdd3ff;}
+</style>
+<!--START_NOTHING_VISIBLE_MDOCS-->
+<table cellspacing="0" cellpadding="0" width="98%" border="0">
+ <tr>
+  <td width="128" valign="top" align=left style="padding:5px 15px 0px 0px;"><a 
+  href="http://www.webshots.com/r/mdocs/home"><img border=0 src="http://p.webshots.com/img/mdocs/webshots_128x37.gif" width=128 height=37></a></td>
+  <!--START_ACCOUNT_INFO-->
+  <td align="right" valign="top"><img src="http://p.webshots.com/img/clear.gif" width="1" height="5"><br>
+  <table cellspacing="0" cellpadding="0" width="100%" border="0">
+   <tr>
+    <td valign="top">
+    <!--START_MIN_MDOCS--><span style="font:.7em arial;">
+    <a href="http://www.webshots.com/r/mdocs/download">DOWNLOAD WEBSHOTS - FREE</a></span><!--END_MIN_MDOCS--></td>
+    <td align="right" valign="top" nowrap><a href="http://www.webshots.com/r/mdocs/cart">
+    <img border="0" src="http://p.webshots.com/img/mdocs/cart_19x13.gif" align="middle" width="19" 
+    height="13"></a><span style="font:.7em arial; color:#666;"><script language="javascript">
+    <!--
+    	var count=0;
+		var start = AllCookies.indexOf("storeitems=");
+		if (start != -1)
+		{
+			var end = AllCookies.indexOf(";", start);
+			if (end < start)
+				end = AllCookies.length;
+			count = AllCookies.substring(start+11, end);
+			if (count > 0)
+				document.write(' <a href="http://www.webshots.com/r/mdocs/cart">('+count+' items)</a>');
+		}
+	//-->
+    </script>
+    <script language="javascript">
+    <!--
+        if(Premium) document.write('&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.webshots.com/r/mdocs/helppremium">HELP</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;');
+        else document.write('&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.webshots.com/r/help">HELP</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;');
+         
+		var pos = AllCookies.indexOf("daily=");
+		var line = "";
+		if (pos != -1)
+		{
+			line = "<a href=\"http://www.webshots.com/MyAccount/MyAccount.fcgi\">MY ACCOUNT</a>";
+			line += "&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"http://daily.webshots.com/scripts/login.fcgi?action=logout\">LOGOUT</a>";
+		}
+		else
+		{
+			line = "<a href=\"http://daily.webshots.com/scripts/signup.fcgi\">FREE SIGN UP</a>";
+			line +="&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"http://daily.webshots.com/scripts/login.fcgi?action=goto\">LOGIN</a>";
+		}
+
+		document.write(line);
+	//-->
+    </script></span></td>
+   </tr>
+  </table>
+  <table cellspacing="0" cellpadding="0" width="100%" border="0">
+   <tr>
+    <td valign="top" align="right"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"><br>
+    <script language="javascript">
+	<!--
+		var name = GetFirstName();
+		if (name != "")
+		{
+			var line = '<span style="font:bold .7em arial; color:#000066;">Hi, ' + name + '</span>';
+			if (Premium)
+				line += '<img src="http://p.webshots.com/img/mdocs/star_12x12.gif" height=12 width=12 alt="Webshots Premium Member">'; 	
+			document.write(line);
+		}
+	//-->
+    </script></td>
+   </tr>
+  </table>
+  </td>
+  <!--END_ACCOUNT_INFO-->
+ </tr>
+</table>
+<!--START_MIN_MDOCS-->
+<img src="http://p.webshots.com/img/clear.gif" width="1" height="3"><br>
+<table border="0" cellpadding="0" cellspacing="0" width="98%">
+ <tr>
+  <td align="center" valign="bottom"><img src="http://p.webshots.com/img/clear.gif" width="97" height="1"><a href="http://www.webshots.com/r/mdocs/tabs/home"><img 
+name="daily" src="http://p.webshots.com/img/mdocs/home4.gif" border="0" width="80" height="24" alt="New photos and more every day!"></a><a href="http://www.webshots.com/r/mdocs/tabs/gallery"><img 
+name="gallery" src="http://p.webshots.com/img/mdocs/gal4.gif" border="0" width="80" height="24" alt="Browse and download outstanding professional photos!"></a><a href="http://www.webshots.com/r/mdocs/tabs/community"><img 
+name="community" src="http://p.webshots.com/img/mdocs/co4-on.gif" border="0" width="101" height="24" alt="Millions of photos from Webshots members!"></a><a href="http://www.webshots.com/r/mdocs/tabs/myphotos"><img 
+name="myphotos" src="http://p.webshots.com/img/mdocs/myp4.gif" border="0" width="91" height="24" alt="Upload, store, and share your personal photos!"></a><a href="http://www.webshots.com/r/mdocs/tabs/printsgifts"><img 
+name="myphotos" src="http://p.webshots.com/img/mdocs/sto4.gif" border="0" width="112" height="24" alt="Fantastic prints and gifts!"></a><a href="http://www.webshots.com/r/mdocs/tabs/pgg"><img border="0" src="http://p.webshots.com/img/mdocs/pgg_107x24.gif" alt="Photo Gear Guide" hspace="5"></a></td>
+ </tr>
+</table>
+<table cellspacing="0" cellpadding="0" width="98%" border="0" bgcolor="#315ebb">
+ <!--START_THIRD_LEVEL-->
+ <tr>
+  <td valign="top"><img src="http://p.webshots.com/img/mdocs/crn_toplt.gif" width="8" height="8"><div style="padding-top:7px;"></div></td>
+  <td align="center"><!--BEGIN_THIRD_NAV_JS--><script type="text/javascript" src="http://p.webshots.com/js/third_nav-1.7.js"></script><!--END_THIRD_NAV_JS--></td>
+  <td valign="top" align="right"><img src="http://p.webshots.com/img/mdocs/crn_toprt.gif" width="8" height="8"></td>
+ </tr>
+</table>
+<!--START_SEARCH-->
+<table cellspacing="0" cellpadding="0" width="98%" border="0">
+ <tr>
+  <td width="1"><img src="http://p.webshots.com/img/mdocs/bg_search_1x29.gif" width="1" height="29"></td>
+  <td background="http://p.webshots.com/img/mdocs/bg_search_1x29.gif" align="center">
+  <table cellspacing="0" cellpadding="0" border="0">
+   <tr>
+    <td align="center">
+    <img border="0" src="http://p.webshots.com/img/mdocs/grfk_magnify_21x29.gif" width="21" height="29"></td>
+    <td align="center">
+    <table cellspacing="0" cellpadding="2" border="0" id="table1">
+    <form method="GET" name="search" action="http://www.webshots.com/search" style="font-size: 8pt">
+    <input type="hidden" name="new" value="1"><input type="hidden" name="source" value="mdocsheader">
+     <tr>
+      <td align="center"><font face="verdana" size="1"><b>Photo Search&nbsp;</b></font></td>
+      <td><input type="text" name="words" size="35" style="font-size: 8pt;"></td> 
+      <td><input type="submit" value="Webshots Search" style="font-size: 8pt"></td>
+      <td><font face="verdana" size="1">&nbsp;<a href="http://www.webshots.com/r/mdocs/advancedsearch">Advanced Search</a></font></td>
+     </tr>
+    </form>
+    </table>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <!--END_THIRD_LEVEL-->
+</table>
+<!--END_SEARCH-->
+<!--BEGINSITEWIDENOTICE-->
+<script type="text/javascript" src="http://p.webshots.com/js/sitewide_notice-1.4.js"></script>
+<!--ENDSITEWIDENOTICE-->
+<!--END_NOTHING_VISIBLE_MDOCS-->
+<!--START_TOP_AD-->
+<table border="0" cellpadding="5" cellspacing="0" width="98%">
+ <tr>
+  <td align="center"><!-- no ad available --></td>
+ </tr>
+</table>
+<!--END_TOP_AD-->
+<!--END_MIN_MDOCS-->
+<!--END_MDOCS_HEADER-->
+
+
+<script>
+document.write('<scri' + 'pt src=http://cmhtml.overture.com/d/search/p/webshots/js/us/ctxt/?ctxtId=1110&Partner=webshots_community_ctxt&type=pets_album&cb=' + Math.random() + '></scri' + 'pt>');
+</script><script>wsCount('adcampaign/31/144/406/');</script>
+
+<span id="banneradtable">
+<table border="0" cellpadding="7" cellspacing="0" width="98%">
+ <tr>
+  <td id="topadtd" bgcolor="#E7E7E7" align="center"></td>
+ </tr>
+</table>
+</span>
+
+<script>
+if (Premium || document.getElementById("topadtd").innerHTML=='')
+ document.getElementById("banneradtable").innerHTML='';
+</script>
+
+<img src="http://p.webshots.com/img/clear.gif" width="1" height="5"><br>
+<table border='0' cellpadding='0' cellspacing='0' width='98%'><tr><td colspan='2'><font face='verdana' size='2'><a href='/'>Community</a> &gt; <a href='/topics/10/100210_node.htm'>Pets</a> &gt; <a href='/topics/12/100212_views_0.htm'>Dogs</a></font><br><img src='http://p.webshots.com/img/clear.gif' width='1' height='10'></tr></td></table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="98%">
+ <tr>
+  <td width="175" valign="top"><a href="/user/switchblade6"><img border="0" src="http://p.webshots.com/img/btn/btn_authorshome_175x25.gif" alt="switchblade6's Homepage" width="175" height="25"></a><br>
+  <table border="0" cellspacing="0" cellpadding="1" bgcolor="#CCCCCC" width="175">
+   <tr>
+    <td>  
+    <table border="0" cellspacing="0" cellspacing="0" cellpadding="0" width="100%">
+     <tr>
+      <td align="center" width="1%" bgcolor="#F5F5F5">
+      <img src="http://p.webshots.com/img/clear.gif" width="1" height="5" border="0"><br>
+      <table border="0" cellspacing="0" cellpadding="2">
+       <tr>
+        <td width="1%"><img border="0" height="20" width="20" src="http://p.webshots.com/img/icon/icon_friends_20x20.gif"></td>
+        <td width="99%"><font face="verdana" size="1">
+        <a href="/myaccount?action=addFavorite&key=switchblade6">Add <b>switchblade6</b> to 
+        My Favorite Members</a></font></td>
+       </tr>
+      </table>
+      <img src="http://p.webshots.com/img/clear.gif" width="1" height="5" border="0"><br>  
+      <table cellpadding="3" cellspacing="0" border="0" width="100%">
+       <tr>
+        <td><font size="2" face="verdana"><b>&nbsp;Album List:</b></font></td>
+       </tr>
+      </table>
+      <table width='100%' cellspacing='0' cellpadding='4'>
+      <tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/145567734BTBapG">Blueboys Everything Bling-Bling</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/200034207SPhAum">Blueboys...And The Old Man Still Has It !</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/176086608EvmXkf">Blueboys ....What Puppies ?</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><b>Blueboys More Puppies</b></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/32839233cjhghU">Blueboys 2004 Gems and Jewels</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/21800190dnvMTEbAOz">Blueboys puppy fun & anything go's</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/26120724PIErnNrTPT">Blueboy's we've done it again !!!!</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/323553070sCCPcb">Blueboys Hidden Treasure</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/15981114foQAeSsdCD">Blueboys Girls</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/15980949YSzmHtNNIe">Blueboys Boys</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/109610863QLMqQI">Blueboys Works In Progress</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/48262920pQtIDa">Blueboys Goes West...The Wild West Pup's !</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/228068622HXbxVz">Blueboys Dashing Threw The Snow</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/64864657FXmLoJ">Blueboys Red Hot Chili Puppers !</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/82032439kkUzhQ">Blueboys Best Kept Secrets</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/341810815JYxUqJ">Blueboys  Show Brags</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/358960116vXfsga">Blueboy's Cup Of Tea</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/35160842YJctbI">Blueboys Good Things Come To Those Who Wait</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/70187075lsebSV">Blueboys Fun  Fun and more Fun !</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/67335511jSBSGF">Blueboys Puppies, Duckies & Chickies...OH MY !</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/9598608WtjmUktwBe">Blueboys Puppies</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/364377699wOltBj">Blueboys Story Of A Litter</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/11250388pLAhAKIaaT">Blueboy Chihuahuas Kennel Description</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/217085547MJAArh">Blueboys And The Chihuahua Meet-Up's</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/170401196RftOnu">Blueboys Make Over In Color</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/170416243RPlIcW">Blueboys Teeth & Health Related Issues</a></font></td></tr><tr><td valign='top'><img src='http://p.webshots.com/img/util/caret_gry_4x8.gif' width=4 height=8 vspace=2></td><td><font face='verdana' size='1'><a href="/album/99967903oqETcE">Blueboys  In Paint By Biscuit's Mom  !</a></font></td></tr>
+      </table>
+      <img src="http://p.webshots.com/img/clear.gif" width="1" height="8" border="0"></td>
+     </tr>
+    </table>
+    </td>
+   </tr>
+  </table>
+  <a href="http://www.webshots.com/r/community/promo/pictavision">
+<img border="0" src="http://p.webshots.com/img/ad/ad_pictavision_174x100.gif" width="174" height="100" vspace="10" alt="Share photos on your phone!"></a></td>
+  <td valign="top" align="center"><style type="text/css">
+a.o1:link{color:#0000FF;}
+a.o1:visited{color:#0000FF;}
+a.o1:hover{color:0000FF;}
+a.o2:link{color:#333333; text-decoration:none}
+a.o2:visited{color:#333333; text-decoration:none}
+a.o2:hover{color:#333333; text-decoration:none}
+a.o2:link span {color:#008000;}
+a.o2:visited span {color:#008000;}
+a.o2:hover span{color:#008000;}
+</style>
+<script>
+  var overtureCOPhotoContinue = 1;
+  if(typeof zSr == 'undefined'|| !zSr[6]){
+    overtureCOPhotoContinue = 0;
+  }
+  if(overtureCOPhotoContinue){
+    var str='';
+	 document.write('<table border=0 cellpadding=2 cellspacing=0 width=98%><tr><td width=10>&nbsp;</td><td><img height=1 src=http://p.webshots.com/img/util/cc.gif width=100%><br><img height=5 src=http://p.webshots.com/img/clear.gif width=1><br><font face=verdana size=1 color=#666666><b>Featured Sponsors</b></font><br>');
+
+    for(i=1; i < 3;i++){
+      if(!zSr[i*6]){
+         continue;
+      }
+      str += '<img height=3 src=http://p.webshots.com/img/clear.gif width=1><br>';
+      str += '<font face=verdana size=2><b><a class=o1 target=_blank href=' + zSr[(i*6) + 2] + '>'+ zSr[(i*6) + 3] + '</a></b><br>';
+      str += '<font size=1><a class=o2 target=_blank href=' + zSr[(i*6) + 2] + '>'+zSr[(i*6)]+'<br><span class=o3>' + zSr[(i*6) + 4] + '</span></a></font><br>';      
+    }
+	 document.write(str);
+	 document.write('<img height=5 src=http://p.webshots.com/img/clear.gif width=1></font><br><img height=1 src=http://p.webshots.com/img/util/cc.gif width=100%></td><td width=10>&nbsp;</td></tr></table><img height=7 src=http://p.webshots.com/img/clear.gif width=1><br>');
+    wsCount('/adcampaign/31/165/589/');	 
+  }else{
+    wsCount('/adcampaign/31/165/589/bad');
+  }
+</script>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td width="16%">&nbsp;</td>
+    <td colspan="6"><font face="verdana" size="4"><b>Blueboys More Puppies</b></font><br>
+    <font face="verdana" size="2"><img src='/img/clear.gif' height=4 width=1><br> THIS ALBUM IS FULL OF PUPPIES I'VE BRED OVER THE LAST 8 YEARS IN MY QUEST FOR THE BEST !</font><br>
+    <img src="http://p.webshots.com/img/clear.gif" width="1" height="10"></td>
+   </tr>
+   <tr>
+    <td width="16%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="32%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="32%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="16%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+   </tr>
+  </table>
+  <a href="/guestbook?albumID=28397679"><img border="0" src="http://p.webshots.com/img/btn/btn_viewguestbook_145x23.gif" width="145" height="23" alt="View Guestbook"></a><a 
+  href="/slideshow?ID=28397679&key=kXvgsJDlBg"><img border="0" src="http://p.webshots.com/img/btn/btn_viewslideshow_146x23.gif" width="146" height="23" alt="View Slideshow"></a><a 
+  href="/scripts/misc.fcgi?action=inviteAlbum&albumID=28397679&key=kXvgsJDlBg"><img border="0" src="http://p.webshots.com/img/btn/btn_sharewithothers_145x23.gif" width="145" height="23" alt="Share With Others"></a><br>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td width="16%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="32%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="32%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="16%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+   </tr>
+   <tr>
+    <td width="16%">&nbsp;</td>
+    <td colspan="5" align="right"><img src="http://p.webshots.com/img/clear.gif" width="1" height="5"><br> 
+    <font face='verdana' size=2>Page 1 of 4. &nbsp;&nbsp;&nbsp;<strong>1</strong>
+,&nbsp;<a href='/album/28397679kXvgsJDlBg/1'>2</a>
+,&nbsp;<a href='/album/28397679kXvgsJDlBg/2'>3</a>
+,&nbsp;<a href='/album/28397679kXvgsJDlBg/3'>4</a>
+&nbsp;<a href='/album/28397679kXvgsJDlBg/1'><b>Next&nbsp;&gt;</b></a>
+</font><br>
+
+    <img src="http://p.webshots.com/img/clear.gif" width="1" height="15"></td>
+    <td width="16%">&nbsp;</td>
+   </tr>
+  </table>  
+  <table width=99% cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/29179729lrWeizEDOW><img border=0 src=http://thumb9.webshots.com/s/thumb2/7/97/29/29179729lrWeizEDOW_th.jpg alt="Soprano's Pup's at 5 weeks" width=100 height=75 name="The Treasure Chest Pup's !"><br></a></td><td><img border=0 name=frame4 height=75 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/29179729lrWeizEDOW>The Treasure Chest Pup's !</a></font></td></table><br></td><!-- 0 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/29180058YOJBSmTKfn><img border=0 src=http://thumb8.webshots.com/s/thumb2/8/0/58/29180058YOJBSmTKfn_th.jpg alt="Maybe if I hold still they'll just go away so I can play  !  " width=100 height=75 name="Mac Cinda's Boy at 5 Weeks"><br></a></td><td><img border=0 name=frame4 height=75 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/29180058YOJBSmTKfn>Mac Cinda's Boy at 5 Weeks</a></font></td></table><br></td><!-- 1 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/29179831XkxIyLkOqi><img border=0 src=http://thumb1.webshots.com/s/thumb1/7/98/31/29179831XkxIyLkOqi_th.jpg alt="Very Sweet !" width=100 height=75 name="5 Weeks"><br></a></td><td><img border=0 name=frame4 height=75 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/29179831XkxIyLkOqi>5 Weeks</a></font></td></table><br></td><!-- 2 -->
+</tr>
+<tr>
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/261528676NsraAd><img border=0 src=http://thumb6.webshots.com/t/34/34/2/86/76/261528676NsraAd_th.jpg alt="Red and White Female" width=100 height=74 name="Sara X Switchblade"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/261528676NsraAd>Sara X Switchblade</a></font></td></table><br></td><!-- 3 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/261529540qfJhNF><img border=0 src=http://thumb0.webshots.com/t/16/17/2/95/40/261529540qfJhNF_th.jpg alt="10 Weeks  and on the go  ! " width=100 height=74 name="Sara X Switchblade"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/261529540qfJhNF>Sara X Switchblade</a></font></td></table><br></td><!-- 4 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/261531495FtsrYJ><img border=0 src=http://thumb5.webshots.com/t/30/30/3/14/95/261531495FtsrYJ_th.jpg alt="I Like this girl but her head is a little narrow and her ear set too high...plus she's going to be very small ...a pet home is in her future !" width=100 height=74 name="Sara X Switchblade"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/261531495FtsrYJ>Sara X Switchblade</a></font></td></table><br></td><!-- 5 -->
+</tr>
+<tr>
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/252325065sDomqH><img border=0 src=http://thumb5.webshots.com/t/16/16/2/50/65/252325065sDomqH_th.jpg alt="All Dressed in their new Dog Spa Sweaters !" width=100 height=74 name="Vixen and Dasher"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/252325065sDomqH>Vixen and Dasher</a></font></td></table><br></td><!-- 6 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/252330617FbpgGB><img border=0 src=http://thumb7.webshots.com/t/16/16/3/6/17/252330617FbpgGB_th.jpg alt="No problem getting them to pose in their new sweaters ...They were just like babies in their snow suits...can't move or they'll fall over...LOL" width=100 height=74 name="Vixen and Dasher"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/252330617FbpgGB>Vixen and Dasher</a></font></td></table><br></td><!-- 7 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/252333923XuBFrf><img border=0 src=http://thumb3.webshots.com/t/14/14/3/39/23/252333923XuBFrf_th.jpg alt="He Will Grow Into This....I hope  !" width=100 height=74 name="Darling Dasher !"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/252333923XuBFrf>Darling Dasher !</a></font></td></table><br></td><!-- 8 -->
+</tr>
+<tr>
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/252329111GcPnwT><img border=0 src=http://thumb1.webshots.com/t/34/35/2/91/11/252329111GcPnwT_th.jpg alt="The Pink sweater looks really great on my  blue puppies and the Light Blue Sweater looks great on my Chocolates !" width=100 height=74 name="Vixen and Dasher"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/252329111GcPnwT>Vixen and Dasher</a></font></td></table><br></td><!-- 9 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/252327151bfaHYu><img border=0 src=http://thumb1.webshots.com/t/34/35/2/71/51/252327151bfaHYu_th.jpg alt="The Dog Spa Sweaters were a gift from Maureen !  The sweaters are size 6 the smallest the Dog Spa makes...This is whay I call these puppies *The Littles* " width=100 height=74 name="Vixen and Dasher"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/252327151bfaHYu>Vixen and Dasher</a></font></td></table><br></td><!-- 10 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/252331998fNAFis><img border=0 src=http://thumb8.webshots.com/t/34/35/3/19/98/252331998fNAFis_th.jpg alt="OK we just lean them up against each other and hope they don't both go over !" width=100 height=74 name="Vixen and Dasher"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/252331998fNAFis>Vixen and Dasher</a></font></td></table><br></td><!-- 11 -->
+</tr>
+<tr>
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/247092681lOyzcZ><img border=0 src=http://thumb1.webshots.com/t/14/15/9/26/81/247092681lOyzcZ_th.jpg alt="This is my ball and I know how to use it !   " width=100 height=75 name="Sara X Switchblade 2005"><br></a></td><td><img border=0 name=frame4 height=75 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/247092681lOyzcZ>Sara X Switchblade 2005</a></font></td></table><br></td><!-- 12 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/247095119LHsFfA><img border=0 src=http://thumb9.webshots.com/t/32/32/9/51/19/247095119LHsFfA_th.jpg alt="This is quite a catch !" width=100 height=74 name="Sara X Switchblade 2005"><br></a></td><td><img border=0 name=frame4 height=74 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/247095119LHsFfA>Sara X Switchblade 2005</a></font></td></table><br></td><!-- 13 -->
+<td valign=middle align=center width=33%><table cellspacing=0 cellpadding=0 border=0><tr><td><a href=/photo/28397679/247091746jVyyaB><img border=0 src=http://thumb6.webshots.com/t/14/15/9/17/46/247091746jVyyaB_th.jpg alt="Red and white pretty lady on her way to the major league !" width=100 height=75 name="Sara X Switchblade 2005"><br></a></td><td><img border=0 name=frame4 height=75 width=8 src=/img/frame5/4.gif></td></tr><tr><td><img border=0 name=frame6 height=8 width=100 src=/img/frame5/6.gif></td><td><img border=0 name=frame7 height=8 width=8 src=/img/frame5/7.gif></td></tr></table><table cellpadding=0 cellspacing=0><td width=200 align=center><font face=verdana size=1><a href=/photo/28397679/247091746jVyyaB>Sara X Switchblade 2005</a></font></td></table><br></td><!-- 14 -->
+</tr>
+</tr></table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tr>
+    <td width="16%"></td>
+    <td colspan="5" align="right">
+    <font face='verdana' size=2>Page 1 of 4. &nbsp;&nbsp;&nbsp;<strong>1</strong>
+,&nbsp;<a href='/album/28397679kXvgsJDlBg/1'>2</a>
+,&nbsp;<a href='/album/28397679kXvgsJDlBg/2'>3</a>
+,&nbsp;<a href='/album/28397679kXvgsJDlBg/3'>4</a>
+&nbsp;<a href='/album/28397679kXvgsJDlBg/1'><b>Next&nbsp;&gt;</b></a>
+</font><br>
+</td>
+    <td width="16%">&nbsp;</td>
+   </tr>
+   <tr>
+    <td width="16%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="32%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="32%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+    <td><img src="http://p.webshots.com/img/clear.gif" width="130" height="1"></td>
+    <td width="16%"><img src="http://p.webshots.com/img/clear.gif" width="1" height="1"></td>
+   </tr>
+  </table>
+  <br>
+  <font face="verdana" size="1"><a href="/user/switchblade6">switchblade6</a> contributed and has 
+  sole responsibility for the content on this page. <a href="http://www.webshots.com/scripts/misc.fcgi?action=reportViolation">Report a violation</a></font>
+  <br>
+  <script>
+  var overtureCOPhotoContinue = 1;
+  if(typeof zSr == 'undefined'|| !zSr[6]){
+    overtureCOPhotoContinue = 0;
+  }
+  if(overtureCOPhotoContinue){
+    var str='';
+	 document.write('<br><table border=0 cellpadding=2 cellspacing=0 width=98%><tr><td width=10>&nbsp;</td><td><img height=1 src=http://p.webshots.com/img/util/cc.gif width=100%><br><img height=5 src=http://p.webshots.com/img/clear.gif width=1><br><font face=verdana size=1 color=#666666><b>Featured Sponsors</b></font><br>');
+
+    for(i=3; i < 5;i++){
+      if(!zSr[i*6]){
+         continue;
+      }
+      str += '<img height=3 src=http://p.webshots.com/img/clear.gif width=1><br>';
+      str += '<font face=verdana size=2><b><a class=o1 target=_blank href=' + zSr[(i*6) + 2] + '>'+ zSr[(i*6) + 3] + '</a></b><br>';
+      str += '<font size=1><a class=o2 target=_blank href=' + zSr[(i*6) + 2] + '>'+zSr[(i*6)]+'<br><span class=o3>' + zSr[(i*6) + 4] + '</span></a></font><br>';      
+    }
+	 document.write(str);
+	 document.write('</font><img height=5 src=http://p.webshots.com/img/clear.gif width=1><br><img height=1 src=http://p.webshots.com/img/util/cc.gif width=100%></td><td width=10>&nbsp;</td></tr></table><img height=10 src=http://p.webshots.com/img/clear.gif width=1>');
+    wsCount('/adcampaign/31/165/590/');	 
+  }else{
+    wsCount('/adcampaign/31/165/590/bad');
+  }
+</script>  
+  </td>
+  <td align="right" valign="top">
+  <iframe id='myframe' src='http://mads.webshots.com/mac-ad?CELT=ifc&REMOTE_ADDR=203.162.153.203&UA=Mozilla%2F4.0+%28compatible%3B+MSIE+6.0%3B+Windows+NT+5.1%29&BRAND=12&SITE=41&NCAT=community:pets:dogs:&SP=18&PTYPE=AP&PREHTML=%3Ccenter%3E&POSTHTML=%3C%2Fcenter%3E'  width="160" height="610" marginwidth="0" marginheight="0" hspace="0" vspace="0" 
+frameborder="0" scrolling="no" allowtransparency="true" background-color="transparent"><script source="http://mads.webshots.com/Ads/common/madCap/MadCap1.js"></script><script language='JavaScript' src='http://mads.webshots.com/mac-ad?CELT=js&REMOTE_ADDR=203.162.153.203&UA=Mozilla%2F4.0+%28compatible%3B+MSIE+6.0%3B+Windows+NT+5.1%29&BRAND=12&SITE=41&NCAT=community:pets:dogs:&SP=18&PTYPE=AP&PREHTML=%3Ccenter%3E&POSTHTML=%3C%2Fcenter%3E'> 
+      </script> 
+   </iframe><script>wsCount('adcampaign/48/285/580/');</script>
+  <!-- POPHERE -->
+  <script language="JavaScript" src="http://as.casalemedia.com/sd?s=62006&f=1"></script><script>wsCount('adcampaign/23/329/631/');SetCookie("casale", 1, 24);SetCookie("popshown",1,12)</script></td>
+ </tr>
+</table>
+<br>
+
+
+
+
+        
+
+<!--$Revision: 1.26 $-->
+<!--START_FOOTER-->
+<br>
+<!--START_MIN_MDOCS-->
+<table cellspacing="0" cellpadding="0" width="98%">
+ <tr>
+  <td width="1"><img src="http://p.webshots.com/img/mdocs/bg_search_1x29.gif" width="1" height="29"></td>
+  <td background="http://p.webshots.com/img/mdocs/bg_search_1x29.gif" align="center">
+  <table cellspacing="0" cellpadding="0">
+   <tr>
+    <td align="center"><span style="font:bold .7em arial;">More Webshots:&nbsp;&nbsp;
+    <a href="http://www.webshots.com/r/mdocs/tour">Webshots Tour</a>
+    | <a href="http://www.webshots.com/r/mdocs/corporate">About Webshots</a>
+    | <a href="http://www.webshots.com/r/mdocs/feedback">Feedback</a>
+    | <a href="http://www.webshots.com/r/cashclub">Affiliates</a> 
+    | <a href="http://www.webshots.com/r/mdocs/advertise">Advertise With Us</a> 
+    | <a href="http://www.webshots.com/r/mdocs/mobile">Mobile</a>
+    | <a href="http://www.webshots.com/r/mdocs/rss">RSS</a>
+    | <a href="http://www.webshots.com/r/mdocs/shoebox">Shoebox (beta)</a>    </span></td>
+   </tr>
+  </table>
+ </tr>
+</table>
+<table cellspacing="0" cellpadding="8" width="98%" border="0" bgcolor="#f5f5f5">
+ <tr>
+  <td align="center"><b><font face="verdana" size="1">Featured Services: <a href="http://www.webshots.com/r/mdocs/cnet/download">Free Software Downloads from Download.com</a></font></b></td>
+ </tr>
+</table>
+
+<br>
+<!--START_COMPANY_INFO-->
+<span style="font:.7em arial;">
+<a href="http://www.bnet.com">BNET</a> | 
+<a href="http://www.cnet.com">CNET.com</a> | 
+<a href="http://www.cnetchannel.com/main/default.aspx">CNET Channel</a> | 
+<a href="http://www.download.com">CNET Download.com</a> | 
+<a href="http://www.news.com">CNET News.com</a> | 
+<a href="http://reviews.cnet.com">CNET Reviews</a> | 
+<a href="http://shopper.cnet.com">CNET Shopper.com</a> | 
+<a href="http://www.computershopper.com">Computer Shopper</a><br>
+<img src="http://p.webshots.com/img/clear.gif" width="1" height="5"><br>
+<a href="http://www.gamespot.com">GameSpot</a> | 
+<a href="http://www.cnetnetworks.com/advertise/properties/international.html">International Media</a> | 
+<a href="http://www.mp3.com">MP3.com</a> | 
+<a href="http://www.mysimon.com">mySimon</a> | 
+<a href="http://www.release1-0.com">Release 1.0</a> | 
+<a href="http://www.search.com">Search.com</a> | 
+<a href="http://www.techrepublic.com">TechRepublic</a> |
+<a href="http://www.tv.com">TV.com</a> | 
+<a href="http://www.zdnet.com">ZDNet</a></font><br>
+<img src="http://p.webshots.com/img/clear.gif" width="1" height="10"><br></span>
+<!--END_MIN_MDOCS-->
+<span style="font:.7em arial;"><a href="http://www.cnetnetworks.com/editorial/copyright.html">Copyright</a> 
+&copy;2005 CNET Networks, Inc. All Rights Reserved.
+<a href="http://www.cnetnetworks.com/editorial/privacy.html">Privacy Policy</a> |
+<a href="http://www.webshots.com/r/mdocs/terms">Terms of Use</a>
+<!--START_MIN_MDOCS-->
+| <a href="http://www.cnetnetworks.com">About CNET Networks</a> |
+<a href="http://www.cnetnetworks.com/careers/">Jobs</a><!--END_MIN_MDOCS--></span><br>
+<br> 
+<!--END_COMPANY_INFO-->
+</center>
+<!--END_FOOTER--></body>
+</html>
